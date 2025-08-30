@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "epicName": "User Authentication Redesign",
+    "squadName": "Alpha Squad",
+    "stakeholders": {
+        "Development Lead": "Diana Miller",
+        "Product Owner": "Alice Johnson",
+        "Business Analyst": "Bob Williams",
+        "Quality Engineer": "Charlie Brown",    
+        "Epic Lead":"Thomas J",  
+        "Developers": ["Eve Davis", "Frank White", "Grace Green"]
+    }
+  },
+  {
+    "id": 2,
+    "epicName": "Payment Gateway Integration",
+    "squadName": "Beta Squad",
+    "stakeholders": {
+        "Development Lead": "Karen Anderson",
+        "Product Owner": "Henry Wilson",
+        "Business Analyst": "Ivy Moore",
+        "Quality Engineer": "Jack Taylor",     
+        "Epic Lead":"Thomas J",  
+        "Developers": ["Liam Thomas", "Mia Jackson", "Noah Martin"]
+    }
+  },
+  {
+    "id": 3,
+    "epicName": "Real-time Notification System",
+    "squadName": "Gamma Squad",
+    "stakeholders": {
+        "Development Lead": "Rachel Martinez",
+        "Product Owner": "Olivia Lee",
+        "Business Analyst": "Peter Garcia",
+        "Quality Engineer": "Quinn Rodriguez",      
+        "Epic Lead": "Jason Anderson",
+        "Developers": ["Sam Clark", "Tina Lewis", "Uma Hall"]
+    }
+  },
+  {
+    "id": 4,
+    "epicName": "Mobile App Performance Optimization",
+    "squadName": "Alpha Squad",
+    "stakeholders": {
+        "Development Lead": "Xavier Scott",
+        "Product Owner": "Alice Johnson",
+        "Business Analyst": "Vince Young",
+        "Quality Engineer": "Wendy Allen",      
+        "Epic Lead": "Jason Anderson",
+        "Developers": ["Yara King", "Zane Hill", "Frank White"]
+    }
+  }
+]
