@@ -1,1 +1,62 @@
-/* You can add global styles to this file, and also import other style files */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #1c1c1e;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(110deg, #1d2b64 0%, #000000 50%, #f8cdda 100%);
+  color: #fff;
+  margin: 0;
+  padding: 40px 20px; 
+  min-height: 100vh;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+@keyframes AuroraBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #1a2a6c);
+  background-size: 400% 400%;
+  animation: AuroraBackground 15s ease infinite;
+
+  color: #fff;
+  margin: 0;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+.dashboard {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.dashboard-header h1 {
+  font-weight: 600;
+}
