@@ -1,0 +1,13 @@
+<div class="epic-card">
+  <button class="export-button" (click)="handleExport()">Export</button>
+  <div class="card-content">
+    <h2>{{ epic.epicName }}</h2>
+    <p class="squad-name">{{ epic.squadName }}</p>
+    <div class="stakeholders">
+      <div *ngFor="let stakeholder of getStakeholders()" class="stakeholder">
+        <strong>{{ stakeholder.role }}:</strong>
+        <span>{{ stakeholder.name }}</span>
+      </div>
+    </div>
+  </div>
+</div>

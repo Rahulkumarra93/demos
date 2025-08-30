@@ -1,0 +1,93 @@
+.epic-card {
+  position: relative;
+  background: rgba(30, 30, 40, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  overflow: hidden;
+  backface-visibility: hidden;
+}
+
+.epic-card:hover {
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.card-content h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #82aaff;
+}
+
+.card-content .squad-name {
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #c3e88d;
+  font-style: italic;
+}
+
+.stakeholders {
+  opacity: 0;
+  max-height: 0;
+  transition: opacity 0.5s ease-out, max-height 0.5s ease-out, margin-top 0.5s ease-out;
+}
+
+.epic-card:hover .stakeholders {
+  opacity: 1;
+  max-height: 500px;
+  margin-top: 20px;
+}
+
+.stakeholder {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 12px;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.stakeholder strong {
+  flex-basis: 150px;
+  flex-shrink: 0;
+  padding-right: 10px;
+  color: #ffcb6b;
+  font-weight: 500;
+}
+
+.stakeholder span {
+  color: #f0f0f0;
+}
+
+.export-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 6px 14px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 500;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+}
+
+.epic-card:hover .export-button {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.export-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+}
